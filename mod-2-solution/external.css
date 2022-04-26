@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(167, 217, 236);
+}
+h1{
+    font-size: 175%;
+    text-align: center;
+    font-weight: bold;
+}
+#bg1{
+    background-color: rgb(101, 57, 204);
+}
+#bg2{
+    background-color: rgb(48, 153, 27);
+}
+#bg3{
+    background-color: rgb(199, 57, 14);
+}
+div p{
+    padding: 5px;
+}
+@media (min-width: 992px){
+    .col-lg-1{
+        float: left;
+        width: 33%;
+        height: auto;
+        padding: 10px;
+        margin: 0;
+    }   
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-2{
+        float: left;
+        width: 50%;
+        height: auto;
+        padding: 10px;
+        margin: 0;
+    }
+}
+@media (max-width: 767px){
+    .col-md-3{
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin: 0;
+    }
+}
+.row{
+    width: 100%;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+section{
+    font-weight: bold;
+    position: relative;
+    margin-left: 75%;
+    margin-top: 0;
+    width: auto;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+section p{
+    margin-top: 2px;
+    color: white;
+}
+body div div div{
+    background-color: rgba(228, 225, 46, 0.904);
+    border: 1px solid black;
+}
+body div div{
+    margin-bottom: 10px;
+}
+section p{
+    font-size: 125%;
+}
